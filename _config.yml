@@ -18,21 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Søren's Social Data Webpage
+email: s164521@student.dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my webpage build for the course:
+  Social Data Analysis and Visualization 02806,
+  Technical University of Denmark.
+  My name is Søren Blatt Bendtsen, I'm a MSc Business Analytics student, 
+  and I'm here to tell you some awesome stories based on data visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: /https://sorenblattbendtsen.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: søren-blatt-bendtsen-234062149
+github_username:  SorenBlattBendtsen
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-youtube
+  - jekyll-spaceship
+  - jekyll-latex
 
 # Exclude from processing.
 # The following items will not be processed, by default.
