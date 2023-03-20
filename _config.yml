@@ -32,7 +32,7 @@ linkedin_username: søren-blatt-bendtsen-234062149
 github_username:  SorenBlattBendtsen
 
 # Build settings
-theme: minima
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
   - jekyll-youtube
