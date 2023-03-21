@@ -22,3 +22,4 @@ https://barrysunderland.com/blog/embedding-bokeh-plots.html#static-bokeh-as-a-st
        width="1100"
        height="600"
        >
+</embed>
