@@ -3,6 +3,7 @@ layout: post
 title: "Assignment 2"
 subtitle: "Drug related crimes in San Francisco"
 date: 2023-03-21 12:30:00 +0100
+author: Vivian Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
