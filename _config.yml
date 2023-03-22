@@ -26,3 +26,7 @@ plugins:
   - jekyll-youtube
   - jekyll-spaceship
   - jekyll-latex
+
+sass:
+  sass_dir: _sass
+  style: compressed
