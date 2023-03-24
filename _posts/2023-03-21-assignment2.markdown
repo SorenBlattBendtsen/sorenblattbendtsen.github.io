@@ -32,18 +32,18 @@ Heat map with Folium:
 
 | :    Easy Multiline   : |||
 | :----- | :----- | :------ |
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
-| Apple  | Banana | Orange  
+| Apple  | Banana | Orange | 
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange |
+| Apple  | Banana | Orange | 
+| Apple  | Banana | Orange | 
 
 
 
