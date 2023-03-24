@@ -13,9 +13,10 @@ Utilizing this dataset, we investigated trends and patterns in San Francisco dru
 
 We hope you find this project useful and interesting. Thank you for stopping by!
 
-Features Description 
+The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used. By examining these elements, you can gain a better understanding of the structure and relevance of the dataset, allowing for more effective data analysis and interpretation.
 
-| Column Name | Definition | Type | Scale |
+
+The following table serves as a concise reference for the key features and attributes we usded. 
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous |
 | Category | Incident Category: A category mapped on the Incident Number used in statistics and reporting. Mappings provided by the crime. Analysis Unit of ther Police Department  | string/text | Categorical|
@@ -41,7 +42,7 @@ table td, table th {
     font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
-    background-color: #4CAF50; /* Change the background color of the header */
+    background-color: slateblue; /* Change the background color of the header to slate blue */
     color: white; /* Change the header text color */
     font-weight: bold; /* Make the header text bold */
 }
@@ -58,7 +59,7 @@ table tr:hover {
 
 
 
-## Dataset exploration 
+
 From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
 
 ![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
