@@ -7,7 +7,11 @@ author: Vivian Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
+Welcome to our GitHub website devoted to investigating drug-related occurrences in San Francisco!
+In this project, Soren, Vivi, and Thomas have used the Police Department Incident Reports Historical 2003 to May 2018 dataset to analyze drug crime incidents in San Francisco from 2003 to 2018.
+Utilizing this dataset, we investigated trends and patterns in San Francisco drug crime occurrences, as well as the influence of other parameters such as time and location. Our objective is to learn more about the nature and scope of drug-related crime.
 
+I hope you find this project useful and interesting. Thank you for stopping by!
 
 # My Table
 
