@@ -40,6 +40,23 @@ Heat map with Folium:
 | Apple  | Banana | Orange  |
 
 
+---
+layout: default
+title: My Table
+---
+
+<style>
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+</style>
+
+# My Table
+
 | Column 1 | Column 2 | Column 3 |
 |----------|----------|----------|
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
