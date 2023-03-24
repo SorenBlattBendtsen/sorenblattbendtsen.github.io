@@ -11,9 +11,12 @@ Welcome to our GitHub website devoted to investigating drug-related occurrences 
 In this project, Soren, Vivi, and Thomas have used the Police Department Incident Reports Historical 2003 to May 2018 dataset to analyze drug crime incidents in San Francisco from 2003 to 2018.
 Utilizing this dataset, we investigated trends and patterns in San Francisco drug crime occurrences, as well as the influence of other parameters such as time and location. Our objective is to learn more about the nature and scope of drug-related crime.
 
-I hope you find this project useful and interesting. Thank you for stopping by!
+We hope you find this project useful and interesting. Thank you for stopping by!
 
-# My Table
+## Dataset exploration 
+
+The total number of crimes is: 2084466
+There are 37 categories of crime including: 'ROBBERY' 'VEHICLE THEFT' 'ASSAULT' 'BURGLARY' 'LARCENY/THEFT' 'DRUG/NARCOTIC' 'VANDALISM' 'WEAPON LAWS' 'SEX OFFENSES 'DISORDERLY CONDUCT' 'PROSTITUTION' 'DRUNKENNESS' 'DRIVING UNDER THE INFLUENCE' etc. 
 
 Features Description 
 
