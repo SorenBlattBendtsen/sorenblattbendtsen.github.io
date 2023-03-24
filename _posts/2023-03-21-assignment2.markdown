@@ -14,7 +14,7 @@ Utilizing this dataset, we investigated trends and patterns in San Francisco dru
 We hope you find this project useful and interesting. Thank you for stopping by!
 
 ## Dataset exploration 
-From the exploration of the dataset it follows that the total number of crimes is 2084466 hich are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
+From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
 
 ![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
 
@@ -31,10 +31,6 @@ Features Description
 | X | The longitude coordinate in WGS84 | longitude | Continuous|
 | Y | The latitude coordinate in WGS84 | latitude | Continuous|
 | PdId | Precinct ID at which precinct ws the incident reported | Integer  | Categorical |
-
-
-
-
 
 <style>
 table {
@@ -55,7 +51,7 @@ table th {
 
 Calendar Plot:
 
-![Calendar plot](/viz/cal_plot_assignment2.png){: width="800" }
+![Calendar plot](/img/calendar%20plot%20updated.png){: width="800" }
 
 One observation about the calendar plot is that after 2010 drug crimes begin to decrease noticeably. So what's going on and has drug crime gone down in San Fransisco? 
 The first part of the comprehensive health care reform law also known as Obamacare enacted on March 23, 2010, is the answer !! [1]
