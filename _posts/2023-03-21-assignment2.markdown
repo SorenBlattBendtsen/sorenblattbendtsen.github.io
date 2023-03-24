@@ -17,13 +17,13 @@ Table Title
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous  |
 | Category | Incident Category: A category mapped on the Incident Number used in statistics and reporting. Mappings provided by the crime. Analysis Unit of ther Police Department  | string/text | Categorical |
-| DayOfWeek |  |  |  |
-| Date |  |  |  |
-| Time |  |  |  |
-| PdDistict |  |  |  |
-| X |  |  |  |
-| Y |  |  |  |
-| PdId |  |  |  |
+| DayOfWeek | The day of the week the incident occured | string/text | Categorical |
+| Date | The date the incident occured | DateTime | Continuous |
+| Time | The time the incident occured | DateTime | Continuous |
+| PdDistict | The Police Disrtict that the incident reported. These are entered by the officers and not based on the point of the incident | string/text | Categorical |
+| X | The longitude coordinate in WGS84 | longitude | Continuous |
+| Y | The latitude coordinate in WGS84 | latitude | Continuous | |  |  |
+| PdId | Precinct ID at which precinct ws the incident reported | Integer  | Categorical |
 
 
 
