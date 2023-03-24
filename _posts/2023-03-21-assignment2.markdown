@@ -13,11 +13,6 @@ Utilizing this dataset, we investigated trends and patterns in San Francisco dru
 
 We hope you find this project useful and interesting. Thank you for stopping by!
 
-## Dataset exploration 
-From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
-
-![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
-
 Features Description 
 
 | Column Name | Definition | Type | Scale |
@@ -35,15 +30,28 @@ Features Description
 <style>
 table {
     border-collapse: collapse;
+    width: 80%; /* Set the width of the table to 80% of its container */
 }
 table td, table th {
     border: 1px solid black;
     padding: 5px;
+    font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
     background-color: #f2f2f2;
 }
 </style>
+
+
+
+
+
+## Dataset exploration 
+From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
+
+![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
+
+
 
 
 
