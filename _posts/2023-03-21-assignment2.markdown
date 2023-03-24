@@ -15,8 +15,7 @@ We hope you find this project useful and interesting. Thank you for stopping by!
 
 ## Dataset exploration 
 
-The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used. By examining these elements, you can gain a better understanding of the structure and relevance of the dataset, allowing for more effective data analysis and interpretation.
-
+The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used.
 | Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous |
