@@ -43,7 +43,7 @@ table td, table th {
     font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
-    background-color: #4CAF50; /* Change the background color of the header */
+    background-color: #b19cd9; /* Change the background color of the header */
     color: white; /* Change the header text color */
     font-weight: bold; /* Make the header text bold */
 }
