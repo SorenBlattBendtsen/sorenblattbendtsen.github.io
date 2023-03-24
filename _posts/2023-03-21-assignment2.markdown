@@ -55,6 +55,7 @@ table tr:hover {
 </style>
 
 
+
 From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
 
 ![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
