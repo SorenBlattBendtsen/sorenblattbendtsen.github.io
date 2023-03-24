@@ -30,20 +30,6 @@ Heat map with Folium:
        height="500"
        >
 
-|     Easy Multiline    |     |     |
-| :-----: | :-----: | :------: |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
-|   Apple  | Banana  |  Orange   |
 
 
 
@@ -61,7 +47,7 @@ table td, table th {
 </style>
 
 # My Table
-
+| daaddaas                       | 
 | Column 1 | Column 2 | Column 3 |
 |----------|----------|----------|
 | Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
