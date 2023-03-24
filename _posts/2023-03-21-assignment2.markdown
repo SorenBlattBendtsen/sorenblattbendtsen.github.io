@@ -16,6 +16,7 @@ We hope you find this project useful and interesting. Thank you for stopping by!
 ## Dataset exploration 
 
 The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used. 
+
 | Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous |
@@ -32,14 +33,25 @@ The initial dataset consisted of 36 columns and  2215024 rows. The table below p
 table {
     border-collapse: collapse;
     width: 80%; /* Set the width of the table to 80% of its container */
+    margin-left: auto; /* Center the table horizontally */
+    margin-right: auto; /* Center the table horizontally */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 table td, table th {
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid #ccc; /* Change the border color */
+    padding: 10px; /* Increase the padding */
     font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
-    background-color: #f2f2f2;
+    background-color: #4CAF50; /* Change the background color of the header */
+    color: white; /* Change the header text color */
+    font-weight: bold; /* Make the header text bold */
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Set a background color for even rows */
+}
+table tr:hover {
+    background-color: #ddd; /* Set a background color for row hover */
 }
 </style>
 
