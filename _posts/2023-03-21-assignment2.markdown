@@ -7,45 +7,23 @@ author: Vivian Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
----
-layout: default
-title: My Table
----
 
-|              My Table                |
-|-------------------------------------|
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 | Row 1, Column 4 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 | Row 2, Column 4 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 | Row 3, Column 4 |
-| Row 4, Column 1 | Row 4, Column 2 | Row 4, Column 3 | Row 4, Column 4 |
-| Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 | Row 5, Column 4 |
-| Row 6, Column 1 | Row 6, Column 2 | Row 6, Column 3 | Row 6, Column 4 |
-| Row 7, Column 1 | Row 7, Column 2 | Row 7, Column 3 | Row 7, Column 4 |
-| Row 8, Column 1 | Row 8, Column 2 | Row 8, Column 3 | Row 8, Column 4 |
-| Row 9, Column 1 | Row 9, Column 2 | Row 9, Column 3 | Row 9, Column 4 |
-
----
-layout: default
-title: My Table
----
 
 # My Table
 
 Table Title
 
-| Column 1 | Column 2 | Column 3 | Column 4 |
+| Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 | Row 1, Column 4 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 | Row 2, Column 4 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 | Row 3, Column 4 |
-| Row 4, Column 1 | Row 4, Column 2 | Row 4, Column 3 | Row 4, Column 4 |
-| Row 5, Column 1 | Row 5, Column 2 | Row 5, Column 3 | Row 5, Column 4 |
-| Row 6, Column 1 | Row 6, Column 2 | Row 6, Column 3 | Row 6, Column 4 |
-| Row 7, Column 1 | Row 7, Column 2 | Row 7, Column 3 | Row 7, Column 4 |
-| Row 8, Column 1 | Row 8, Column 2 | Row 8, Column 3 | Row 8, Column 4 |
-| Row 9, Column 1 | Row 9, Column 2 | Row 9, Column 3 | Row 9, Column 4 |
+| IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous  |
+| Category |  |  |  |
+| DayOfWeek |  |  |  |
+| Date |  |  |  |
+| Time |  |  |  |
+| PdDistict |  |  |  |
+| X |  |  |  |
+| Y |  |  |  |
+| PdId |  |  |  |
 
 
 
