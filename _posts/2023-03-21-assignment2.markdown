@@ -16,7 +16,7 @@ Table Title
 | Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous  |
-| Category |  |  |  |
+| Category | Incident Category: A category mapped on the Incident Number used in statistics and reporting. Mappings provided by the crime. Analysis Unit of ther Police Department  | string/text | Categorical |
 | DayOfWeek |  |  |  |
 | Date |  |  |  |
 | Time |  |  |  |
