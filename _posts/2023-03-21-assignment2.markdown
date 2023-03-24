@@ -7,6 +7,32 @@ author: Vivian Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
+| :    Easy Multiline   : |||
+| :----- | :----- | :------ |
+| Apple  | Banana | Orange  \
+| Apple  | Banana | Orange  \
+| Apple  | Banana | Orange
+| Apple  | Banana | Orange  \
+| Apple  | Banana | Orange  |
+| Apple  | Banana | Orange  |
+
+<style>
+table {
+    border-collapse: collapse;
+}
+table td, table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+table th {
+    background-color: #f2f2f2;
+}
+</style>
+
+
+
+
+
 Calendar Plot:
 
 ![Calendar plot](/viz/cal_plot_assignment2.png){: width="800" }
@@ -31,27 +57,6 @@ Heat map with Folium:
        >
 
 
-
-
-
-
-
-<style>
-table {
-    border-collapse: collapse;
-}
-table td, table th {
-    border: 1px solid black;
-    padding: 5px;
-}
-</style>
-
-# My Table
-| daaddaas                       | 
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
 
 Bokeh Visualization:
 
