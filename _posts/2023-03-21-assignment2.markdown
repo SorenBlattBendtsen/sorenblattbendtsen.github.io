@@ -10,6 +10,7 @@ background: '/img/my_images/golden_gate_bridge.jpg'
 Calendar Plot:
 
 ![Calendar plot](/viz/cal_plot_assignment2.png){: width="800" }
+
 One observation about the calendar plot is that after 2010 drug crimes begin to decrease noticeably. So what's going on and has drug crime gone down in San Fransisco? 
 The first part of the comprehensive health care reform law also known as Obamacare enacted on March 23, 2010, is the answer !! [1]
 
