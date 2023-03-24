@@ -42,7 +42,7 @@ table td, table th {
     font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
-    background-color: #b19cd9; /* Change the background color of the header */
+    background-color: #4CAF50; /* Change the background color of the header */
     color: white; /* Change the header text color */
     font-weight: bold; /* Make the header text bold */
 }
@@ -53,11 +53,6 @@ table tr:hover {
     background-color: #ddd; /* Set a background color for row hover */
 }
 </style>
-
-
-
-
-
 
 
 From the exploration of the dataset it follows that the total number of crimes is 2084466 which are categorized in 37 cetegories. The total number of drug related crimes is 116352 and as it can be seen it is the most occuring crime in San Francisco. 
