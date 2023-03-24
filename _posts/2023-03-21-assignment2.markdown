@@ -8,7 +8,6 @@ background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
 |     Easy Multiline    |||
-| :----- | :----- | :------ |
 | Apple  | Banana | Orange  
 | Apple  | Banana | Orange  
 | Apple  | Banana | Orange
