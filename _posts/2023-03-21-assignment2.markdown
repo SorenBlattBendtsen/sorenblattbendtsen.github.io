@@ -7,7 +7,7 @@ author: Vivian Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/golden_gate_bridge.jpg'
 ---
 
-| :    Easy Multiline    |||
+|     Easy Multiline    |||
 | :----- | :----- | :------ |
 | Apple  | Banana | Orange  
 | Apple  | Banana | Orange  
