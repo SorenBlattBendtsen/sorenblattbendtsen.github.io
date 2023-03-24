@@ -15,7 +15,7 @@ We hope you find this project useful and interesting. Thank you for stopping by!
 
 ## Dataset exploration 
 
-The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used.
+The initial dataset consisted of 36 columns and  2215024 rows. The table below provides a quick reference to the essential features and qualities we used. 
 | Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
 | IncidNTnUM | Incident Number: The number issued on the report, sometimes interchangeably referred to as the case number  | Integer  | Continuous |
@@ -42,7 +42,7 @@ table td, table th {
     font-size: 14px; /* Set the font size of the table cells */
 }
 table th {
-    background-color: #5D3BB9; /* Change the background color of the header */
+    background-color: #b19cd9; /* Change the background color of the header */
     color: white; /* Change the header text color */
     font-weight: bold; /* Make the header text bold */
 }
@@ -64,6 +64,7 @@ From the exploration of the dataset it follows that the total number of crimes i
 
 ![Number of crimes per category](/img/number_crimes_per_category.png){: width="800" }
 
+We selected to analyze "drug" incidents from the San Francisco crime dataset because of their considerable influence on public health, safety, and general community quality of life. We may better understand the underlying patterns and trends by investigating drug-related occurrences
 
 ![Calendar plot](/img/updated%20calendar%20plot%20.png){: width="800" }
 
