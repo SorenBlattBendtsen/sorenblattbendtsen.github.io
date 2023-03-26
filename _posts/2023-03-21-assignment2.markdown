@@ -61,11 +61,11 @@ To only focus on complete years for better comparison, we only included data up 
 
 ## Positice development in drug/narcotics crime
 
-![Number of crimes per category](/viz/number_crimes_per_category.png){: width="800" }
+![Number of crimes per category](/viz/number_crimes_per_category.png){: width="700" }
 
 We selected to analyze "drug/narcotics" incidents from the San Francisco crime dataset because of their considerable influence on public health, safety, and general community quality of life. But also because of an interesting development for this type of crime in San Francisco. 
 
-![Calendar plot](/viz/cal_plot_assignment2.png){: width="800" }
+![Calendar plot](/viz/cal_plot_assignment2.png){: width="700" }
 
 One observation from the calendar plot above is that after 2010 drug-related crimes began to decrease noticeably. Up until 2010, there were almost always several days a week with up to 40-75 daily incidents. From 2010 that number went down, and in 2017 that number was between 0-20 daily incidents. So what's going on and has drug-related crime really gone down in San Fransisco? The answer lies in a change in strategy from both political and police-force perspective; from a "war-on-drugs" strategy to a "preventive and root problem" strategy.
 
@@ -83,8 +83,8 @@ To understand the development further, we will look at the development over time
 <embed 
        type="text/html" 
        src="/viz/bokeh_assignment2.html"
-       width="1100"
-       height="600"
+       width="800"
+       height="500"
        >
 
 Again, we clearly see that drug-related crime has decreased with the total number being three times lower in 2017 compared to 2009. The visualization shows us that the development has happened across all the police district, although drug-related crime continues to be centralized in a few specific districts, such as Tenderloin and Southern, accounting for app. half of all drug-related incidents. The same trend is visualized in the heat-map below (click on play to see the development).
@@ -101,15 +101,15 @@ So we can see that the city of San Francisco in general has had success on tackl
 From these visualizations, it is easy to assume that the trend could have continued decreasing, especially considering the legalization of marijuana in 2018 [6] and the implementation of safe injection sites in 2019 [4]. While this has been the case for most neighborhoods, the development in Tenderloin has gone completely backwards. In 2021, Tenderloin accounted for more than 60 % of the city's drug-related crime! It has become so bad, that the San Francisco Mayor, London N. Breed, in December 2021 called it an epidemic and declared a State of Emergency in the neighborhood to take more drastic measures into account to tackle these issues [5]. So it might look like the "preventive and root cause" strategy from previous years have come to an end, and a new tough-on-crime era has begun.
 
 
-[1] : [Patient protection and affordable care act](https://www.healthcare.gov/glossary/patient-protection-and-affordable-care-act/){:target="_blank"}{:rel="noopener noreferrer"}
+[1] : [Health Care Gov, Patient protection and affordable care act](https://www.healthcare.gov/glossary/patient-protection-and-affordable-care-act/){:target="_blank"}{:rel="noopener noreferrer"}
 
-[2] : [Health care law protections](https://www.healthcare.gov/health-care-law-protections/){:target="_blank"}{:rel="noopener noreferrer"}
+[2] : [Health Care Gov, Health care law protections](https://www.healthcare.gov/health-care-law-protections/){:target="_blank"}{:rel="noopener noreferrer"}
 
-[3] : [ Bronson et al. (2017)](https://bjs.ojp.gov/content/pub/pdf/dudaspji0709.pdf){:target="_blank"}{:rel="noopener noreferrer"}
+[3] : [US Department of Justice, Drug Use, Dependence, and Abuse Among State Prisoners and Jail Inmates, 2007-2009](https://bjs.ojp.gov/content/pub/pdf/dudaspji0709.pdf){:target="_blank"}{:rel="noopener noreferrer"}
 
-[4] : [California bill allowing San Francisco safe injection sites](https://www.sfchronicle.com/bayarea/article/California-bill-allowing-San-Francisco-safe-13589277.php){:target="_blank"}{:rel="noopener noreferrer"}
+[4] : [San Francisco Chronicle, California bill allowing San Francisco safe injection sites](https://www.sfchronicle.com/bayarea/article/California-bill-allowing-San-Francisco-safe-13589277.php){:target="_blank"}{:rel="noopener noreferrer"}
 
 [5] : [San Francisco Chronicle, These charts show how drug incidents](https://www.sfchronicle.com/bayarea/article/These-charts-show-how-drug-incidents-in-the-16723745.php){:target="_blank"}{:rel="noopener noreferrer"}
 
-[6] : [Weed legal San Francisco](https://lajolla.com/article/weed-legal-san-francisco/){:target="_blank"}{:rel="noopener noreferrer"}
+[6] : [La Jolla, Weed legal San Francisco](https://lajolla.com/article/weed-legal-san-francisco/){:target="_blank"}{:rel="noopener noreferrer"}
 
