@@ -84,7 +84,6 @@ To understand the development further, we will look at the development over time
        width="1100"
        height="600"
        >
-
 Again, we clearly see that drug-related crime has decreased with the total number being three times lower in 2017 compared to 2009. The visualization shows us that the development has happened across all the police district, although drug-related crime continues to be centralized in a few specific districts, such as Tenderloin and Southern, accounting for app. half of all drug-related incidents. The same trend is visualized in the heat-map below (click on play to see the development).
 
 <embed 
@@ -100,9 +99,14 @@ From these visualizations, it is easy to assume that the trend could have contin
 
 
 [1] : https://www.healthcare.gov/glossary/patient-protection-and-affordable-care-act/
+
 [2] : https://www.healthcare.gov/health-care-law-protections/
+
 [3] : https://bjs.ojp.gov/content/pub/pdf/dudaspji0709.pdf
+
 [4] : https://www.sfchronicle.com/bayarea/article/California-bill-allowing-San-Francisco-safe-13589277.php
+
 [5] : https://www.sfchronicle.com/bayarea/article/These-charts-show-how-drug-incidents-in-the-16723745.php
+
 [6] : https://lajolla.com/article/weed-legal-san-francisco/ 
 
