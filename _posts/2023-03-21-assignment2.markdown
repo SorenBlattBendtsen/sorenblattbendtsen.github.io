@@ -84,6 +84,7 @@ To understand the development further, we will look at the development over time
        width="1100"
        height="600"
        >
+
 Again, we clearly see that drug-related crime has decreased with the total number being three times lower in 2017 compared to 2009. The visualization shows us that the development has happened across all the police district, although drug-related crime continues to be centralized in a few specific districts, such as Tenderloin and Southern, accounting for app. half of all drug-related incidents. The same trend is visualized in the heat-map below (click on play to see the development).
 
 <embed 
