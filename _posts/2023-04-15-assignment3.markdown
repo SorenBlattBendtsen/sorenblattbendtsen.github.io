@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Copenhagen?"
+title: "Copenhagen"
 subtitle: "A data story"
 date: 2023-04-15 16:05:00 +0100
 author: Vivien Váradi, Thomas Adamoupoulos, Søren Blatt Bendtsen
