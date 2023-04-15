@@ -9,6 +9,6 @@ background: '/img/my_images/copenhagen_nyhavn.jpg'
 
 # Assignment 3
 
-**Hello world**, this is my first Jekyll blog post.
+**Watch our one-minute Youtube teaser**
 
-I hope you like it!
+ {% youtube "https://youtu.be/zLA62I9vQLU" %}
