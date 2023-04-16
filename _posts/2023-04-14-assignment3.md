@@ -7,8 +7,9 @@ author: Vivien Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/copenhagen_nyhavn.jpg'
 ---
 
-# Assignment 3
+# Final Project Assignment A: "The Pitch"
 
 **Watch our one-minute Youtube teaser**
 
- {% youtube "https://youtu.be/zLA62I9vQLU" %}
+
+ {% youtube "https://youtu.be/kp9Resy2QPk" %}
