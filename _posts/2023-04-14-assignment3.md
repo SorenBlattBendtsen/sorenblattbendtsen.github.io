@@ -10,6 +10,3 @@ background: '/img/my_images/copenhagen_nyhavn.jpg'
 # Final Project Assignment A: "The Pitch"
 
 **Watch our one-minute Youtube teaser**
-
-
- {% youtube "https://youtu.be/kp9Resy2QPk" %}
