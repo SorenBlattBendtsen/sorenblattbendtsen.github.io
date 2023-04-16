@@ -11,4 +11,4 @@ background: '/img/my_images/copenhagen_nyhavn.jpg'
 
 **Watch our one-minute Youtube teaser**
 
- {% youtube "https://youtu.be/kp9Resy2QPk" %}
+{% youtube page.https://youtu.be/kp9Resy2QPk %}
