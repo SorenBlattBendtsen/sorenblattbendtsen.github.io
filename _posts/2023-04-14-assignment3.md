@@ -5,10 +5,11 @@ subtitle: "A data story"
 date: 2023-04-14 12:30:00 +0100
 author: Vivien Váradi, Thomas Adamopoulos & Søren Blatt Bendtsen
 background: '/img/my_images/copenhagen_nyhavn.jpg'
+youtubeId: kp9Resy2QPk
 ---
 
 # Final Project Assignment A: "The Pitch"
 
 **Watch our one-minute Youtube teaser**
 
-![](https://www.youtube.com/watch?v=kp9Resy2QPk)
+{% include youtubePlayer.html id=page.youtubeId %}
