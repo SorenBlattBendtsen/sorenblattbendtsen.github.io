@@ -10,6 +10,6 @@ background: '/img/my_images/golden_gate_bridge.jpg'
 # Welcome to our final project
 
 <iframe
-  src="/viz/final-project-social-data-quiz.html"
+  src="/viz/sample-quiz.html"
   style="width:100%; height:300px;"
 ></iframe>
