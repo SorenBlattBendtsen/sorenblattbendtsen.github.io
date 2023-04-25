@@ -12,7 +12,7 @@ background: '/img/my_images/golden_gate_bridge.jpg'
 
 <embed 
        type="text/html" 
-       src="/DTU Business Analytics/markdown-quiz-generator/generated-quizzes/final-project-social-data-quiz.html"
+       src="/Users/sorenbendtsen/Documents/DTU Business Analytics/markdown-quiz-generator/generated-quizzes/final-project-social-data-quiz.html"
        width="800"
        height="500"
        >
