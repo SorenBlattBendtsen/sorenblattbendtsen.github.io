@@ -69,8 +69,8 @@ table tr:hover {
 <embed 
        type="text/html" 
        src="/viz/cph_hosp_days_time_map.html"
-       width="800"
-       height="500"
+       width="1000"
+       height="750"
        >
 
 # Copenhagen municipalities
