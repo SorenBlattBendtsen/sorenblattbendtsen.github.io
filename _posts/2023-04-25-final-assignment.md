@@ -65,6 +65,14 @@ table tr:hover {
 * graphs on specific on age, gender, education and ethnicity.
   * Does anything stand out?
 
+
+<embed 
+       type="text/html" 
+       src="/viz/cph_hosp_days_time_map.html"
+       width="800"
+       height="500"
+       >
+
 # Copenhagen municipalities
 * on the parameter that stands out, deeper analysis comparing the municipalities of Copenhagen with each other.
 * map with correlation between income and health? and then income and health also in tool tip?
