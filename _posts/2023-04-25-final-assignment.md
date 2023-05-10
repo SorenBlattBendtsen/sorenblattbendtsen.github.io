@@ -65,19 +65,24 @@ table tr:hover {
 * graphs on specific on age, gender, education and ethnicity.
   * Does anything stand out?
 
-
+<embed 
+       type="text/html" 
+       src="/viz/dk_cph_income_bar.html"
+       width="1000"
+       height="750"
+       >
 
 <p align="center">
   <embed 
        type="text/html" 
        src="/viz/dk_cph_days_hospital_line.html"
-       width="450"
+       width="43%"
        height="350">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <embed 
        type="text/html" 
        src="/viz/dk_cph_hospitalizations_line.html"
-       width="450"
+       width="43#"
        height="350">
 </p>
 
