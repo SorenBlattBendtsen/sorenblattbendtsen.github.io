@@ -60,21 +60,37 @@ table tr:hover {
 
 
 # Greater Copenhagen vs Denmark
-* graphs on income and health comparing Denmark with Copenhagen
-  * Copenhagen performs better than the rest of the country in general
-* graphs on specific on age, gender, education and ethnicity.
-  * Does anything stand out?
+Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. 
+
+### Interactivity
+The following sections will include interactive visualizations where you yourself can drill down into the graph for further investigation. You can do so by using the drop down menus as filter and by hovering over the graphs with the mouse for more information. However, it is important to mention that you can only apply one drop down filter at a time. So if you first make a filter for Gender and then afterwards make a filter for Age, then the Gender filter no longer is applied.
+
+### Income
 
 <embed 
        type="text/html" 
        src="/viz/dk_cph_income_bar.html"
-       width="800"
-       height="600"
+       width="900"
+       height="450"
        >
-label 1 | label 2 |
-<embed type="text/html" src="/viz/dk_cph_days_hospital_line.html" width="48%" height="350"> | 
-<embed type="text/html" src="/viz/dk_cph_hospitalizations_line.html" width="48%" height="350">
-      
+The visualization above shows the development over time of annual disposable income for Greater Copenhagen and Denmark. It is clear to see that, since the financial crisis in 2008, there has been a positive growth in income and that through this entire period, Copenhagen has had a relatively higher income than the rest of the country.
+
+
+### Health
+
+<embed 
+       type="text/html" 
+       src="/viz/dk_cph_days_hospital_bar.html"
+       width="900"
+       height="450"
+       >
+
+<embed 
+       type="text/html" 
+       src="/viz/dk_cph_hospitalizations_bar.html"
+       width="900"
+       height="450"
+       >
 
 <p align="center">
   <embed 
