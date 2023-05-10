@@ -71,14 +71,14 @@ table tr:hover {
   <embed 
        type="text/html" 
        src="/viz/dk_cph_days_hospital_line.html"
-       width="47%"
-       height="400">
+       width="450"
+       height="350">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <embed 
        type="text/html" 
        src="/viz/dk_cph_hospitalizations_line.html"
-       width="47%"
-       height="400">
+       width="450"
+       height="350">
 </p>
 
 
