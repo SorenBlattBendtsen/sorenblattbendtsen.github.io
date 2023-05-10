@@ -72,18 +72,16 @@ table tr:hover {
        height="600"
        >
 
-label 1 | label 2
---- | ---
-<embed 
+      <embed 
        type="text/html" 
        src="/viz/dk_cph_days_hospital_line.html"
-       width="43%"
+       width="48%"
        height="350"> | <embed 
        type="text/html" 
        src="/viz/dk_cph_hospitalizations_line.html"
-       width="43%"
+       width="48%"
        height="350">
-       
+      
 
 <p align="center">
   <embed 
