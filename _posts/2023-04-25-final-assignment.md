@@ -70,11 +70,15 @@ table tr:hover {
 <p align="center">
   <embed 
        type="text/html" 
-       src="/viz/dk_cph_days_hospital_line.html">
+       src="/viz/dk_cph_days_hospital_line.html"
+       width="95%"
+       height="95%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <embed 
        type="text/html" 
-       src="/viz/dk_cph_hospitalizations_line.html">
+       src="/viz/dk_cph_hospitalizations_line.html"
+       width="95%"
+       height="95%">
 </p>
 
 
