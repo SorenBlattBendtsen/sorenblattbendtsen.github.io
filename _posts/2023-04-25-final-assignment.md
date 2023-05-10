@@ -66,18 +66,45 @@ table tr:hover {
   * Does anything stand out?
 
 
-<embed 
+
+<p align="center">
+  <embed 
        type="text/html" 
-       src="/viz/cph_hosp_days_time_map.html"
-       width="1000"
-       height="750"
-       >
+       src="/viz/dk_cph_days_hospital_bar.html"
+       width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <embed 
+       type="text/html" 
+       src="/viz/dk_cph_hospitalizations_bar.html"
+       width="45%">
+</p>
+
 
 # Copenhagen municipalities
 * on the parameter that stands out, deeper analysis comparing the municipalities of Copenhagen with each other.
 * map with correlation between income and health? and then income and health also in tool tip?
 * Possible to do a cluster analysis? Create different clusters with a certain income and health and then see if there are any obvious patterns in which municipalities these clusters live in?
 
+<embed 
+       type="text/html" 
+       src="/viz/cph_income_time_map.html"
+       width="1000"
+       height="750"
+       >
+
+<embed 
+       type="text/html" 
+       src="/viz/cph_hosp_times_time_map.html"
+       width="1000"
+       height="750"
+       >
+
+<embed 
+       type="text/html" 
+       src="/viz/cph_hosp_days_time_map.html"
+       width="1000"
+       height="750"
+       >
 
 
 
