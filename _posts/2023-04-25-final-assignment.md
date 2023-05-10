@@ -68,8 +68,8 @@ table tr:hover {
 <embed 
        type="text/html" 
        src="/viz/dk_cph_income_bar.html"
-       width="1000"
-       height="750"
+       width="800"
+       height="600"
        >
 
 <p align="center">
@@ -82,7 +82,7 @@ table tr:hover {
   <embed 
        type="text/html" 
        src="/viz/dk_cph_hospitalizations_line.html"
-       width="43#"
+       width="43%"
        height="350">
 </p>
 
