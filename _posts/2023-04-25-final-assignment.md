@@ -120,7 +120,7 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
        src="/viz/cph_income_time_map.html"
        width="1000"
        height="750"
-       caption="Note: only possible to apply one filter at the time"
+       title="Note: only possible to apply one filter at the time"
        >
 
 <embed 
