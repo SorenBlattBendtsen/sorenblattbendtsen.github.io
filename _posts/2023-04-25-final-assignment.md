@@ -60,10 +60,10 @@ table tr:hover {
 
 
 # Greater Copenhagen vs Denmark
-Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. 
+Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. The story across the entire country is in general a positive one where income has been growing and time spent in the hospital is decreasing
 
 ### Interactivity
-The following sections will include interactive visualizations where you yourself can drill down into the graph for further investigation. You can do so by using the drop down menus as filter and by hovering over the graphs with the mouse for more information. However, it is important to mention that you can only apply one drop down filter at a time. So if you first make a filter for Gender and then afterwards make a filter for Age, then the Gender filter no longer is applied.
+The following sections will include interactive visualizations where you yourself can drill down into the graph for further investigation. You can do so by using the drop down menus as filter and by hovering over the graphs with the mouse for more information. However, it is important to mention that you can only apply one drop down filter at a time. So if you first make a filter for Gender and then afterwards make a filter for Age, then the Gender filter no longer is applied. We invite you to play around with the drop down menus as well as hovering over the bars for more information or highlighting specific time periods.
 
 ### Income
 
@@ -74,13 +74,13 @@ The following sections will include interactive visualizations where you yoursel
        height="450"
        >
 
-The visualization above shows the development over time of annual disposable income for Greater Copenhagen and Denmark. It is clear to see that, since the financial crisis in 2008, there has been a positive growth in income and that through this entire period, Copenhagen has had a relatively higher income than the rest of the country. The biggest gaps of income are found when diving down into the different age groups, especially from 40 years and above. This is a trend that has been growing over the years where the older you get when living in Copenhagen, the more disposable income you have compared to the rest of the country. While also looking at ethnic Danish people, the income gap between the capital and the rest of the country has followed the same trend.
+The visualization above shows the development over time of annual disposable income for Greater Copenhagen and Denmark. It is clear to see that, Copenhagen has had a relatively higher income than the rest of the country. The biggest gaps of income are found when diving down into the different age groups, especially from 40 years and above. This is a trend that has been growing over the years where the older you get when living in Copenhagen, the more disposable income you have compared to the rest of the country. While also looking at ethnic Danish people, the income gap between the capital and the rest of the country has followed the same trend.
 
-On the other hand, Immigrants and Descendants has had a similar income, where only in reason years the income has become slightly higher for those living in Greater Copenhagen. If diving deeper down into ethnicity, we find that Non-Wester Immigrants and Descendants, as the only demographic group, have a lower income in the capital, and the difference is quite big.
+On the other hand, Immigrants and Descendants has had a similar income, where only in reason years the income has become slightly higher for those living in Greater Copenhagen. If diving deeper down into ethnicity, we find that Non-Wester Immigrants and Descendants, as the only demographic group, have a lower income in the capital, and the difference is quite noticable.
 
 
 ### Health
-
+<b>Note<b>: Only possible to apply one filter at the time.
 <embed 
        type="text/html" 
        src="/viz/dk_cph_days_hospital_bar.html"
@@ -94,20 +94,11 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
        width="900"
        height="450"
        >
+When looking at the development on two important health parameters, Number of Days in Hospital and Number of Hospitalizations, both the Danish population as well as the citizens of the capital have had a significant decrease in how much time they spent in the hospital. On the other hand, there has been a slight increase in the amount of hospital visits. As one would expect, elder people spend more time and have more visits to the hospital, but significantly more within Copenhagen. 
 
-<p align="center">
-  <embed 
-       type="text/html" 
-       src="/viz/dk_cph_days_hospital_line.html"
-       width="43%"
-       height="350">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <embed 
-       type="text/html" 
-       src="/viz/dk_cph_hospitalizations_line.html"
-       width="43%"
-       height="350">
-</p>
+When diving down in the visualizations, we can find some interesting demographic trends. The average man in Denmark spend more time in the hospital compared to men in Copenhagen, and also compared to women across the country. We can also see an important difference between educated and non-educated peopl, where e.g. high educated people in Copenhagen spend less time in the hospital than high educated people in the rest of Denmark, but low educated people in Copenhagen spend more time in the hospital compared to the rest of Denmark. At last we also see, that Immigrants and Descendants, especially Non-Western, spend much less time in the hospital compared to ethnic Danish people.
+
+So what can we learn from this? Although the level of income is higher in Copenhagen than the country average, the difference within health parameters don't stand out in the same way. Within certain groups, especially for elder people, much more time is spent in the hospital for citizens in Copenhagen. As we could also see from the cluster analysis, age was the strongest descriptive parameter for both wealth and health. Having this in mind, let's deep dive into the 20 municipalities within the Greater Region of Copenhagen!
 
 
 # Copenhagen municipalities
@@ -120,7 +111,6 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
        src="/viz/cph_income_time_map.html"
        width="1000"
        height="750"
-       title="Note: only possible to apply one filter at the time"
        >
 
 <embed 
@@ -147,6 +137,9 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
   style="width:100%; height:300px;"
 ></iframe>
 
+# Do you want to know more?
+Have a look [here at our Explainer Jupyter Notebook](url to Git){:target="_blank"}{:rel="noopener noreferrer"} with code and explinations of all the data analysis and visualizations.
+
 
 # References
 
@@ -155,3 +148,19 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
 [2] : [Arbejderbevægelsens Erhvervsråd, Krig vil ramme danskernes forbrug og realløn](https://www.ae.dk/analyse/2022-03-krig-vil-ramme-danskernes-forbrug-og-realloen){:target="_blank"}{:rel="noopener noreferrer"}
 
 [3] : [Rockwool Fonden, Velstand og Ulighed](https://www.velstandogulighed.dk/){:target="_blank"}{:rel="noopener noreferrer"}
+
+## Side by side images/visualizations (notes)
+
+<p align="center">
+  <embed 
+       type="text/html" 
+       src="/viz/dk_cph_days_hospital_line.html"
+       width="43%"
+       height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <embed 
+       type="text/html" 
+       src="/viz/dk_cph_hospitalizations_line.html"
+       width="43%"
+       height="350">
+</p>
