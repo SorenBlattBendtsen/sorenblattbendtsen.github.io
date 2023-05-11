@@ -138,7 +138,7 @@ So what can we learn from this? Although the level of income is higher in Copenh
 ></iframe>
 
 # Do you want to know more?
-Have a look [here at our Explainer Jupyter Notebook](url to Git){:target="_blank"}{:rel="noopener noreferrer"} with code and explinations of all the data analysis and visualizations.
+Have a look [here at our Explainer Jupyter Notebook](https://github.com/vivivaradi/socialdata2023/blob/master/assignments/cph_vs_dk.ipynb){:target="_blank"}{:rel="noopener noreferrer"} with code and explinations of all the data analysis and visualizations.
 
 
 # References
