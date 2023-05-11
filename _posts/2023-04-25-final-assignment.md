@@ -73,7 +73,10 @@ The following sections will include interactive visualizations where you yoursel
        width="900"
        height="450"
        >
-The visualization above shows the development over time of annual disposable income for Greater Copenhagen and Denmark. It is clear to see that, since the financial crisis in 2008, there has been a positive growth in income and that through this entire period, Copenhagen has had a relatively higher income than the rest of the country.
+
+The visualization above shows the development over time of annual disposable income for Greater Copenhagen and Denmark. It is clear to see that, since the financial crisis in 2008, there has been a positive growth in income and that through this entire period, Copenhagen has had a relatively higher income than the rest of the country. The biggest gaps of income are found when diving down into the different age groups, especially from 40 years and above. This is a trend that has been growing over the years where the older you get when living in Copenhagen, the more disposable income you have compared to the rest of the country. While also looking at ethnic Danish people, the income gap between the capital and the rest of the country has followed the same trend.
+
+On the other hand, Immigrants and Descendants has had a similar income, where only in reason years the income has become slightly higher for those living in Greater Copenhagen. If diving deeper down into ethnicity, we find that Non-Wester Immigrants and Descendants, as the only demographic group, have a lower income in the capital, and the difference is quite big.
 
 
 ### Health
@@ -117,6 +120,7 @@ The visualization above shows the development over time of annual disposable inc
        src="/viz/cph_income_time_map.html"
        width="1000"
        height="750"
+       caption="Note: only possible to apply one filter at the time"
        >
 
 <embed 
