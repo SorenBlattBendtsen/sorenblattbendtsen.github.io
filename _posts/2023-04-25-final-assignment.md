@@ -80,7 +80,7 @@ On the other hand, Immigrants and Descendants has had a similar income, where on
 
 
 ### Health
-<b>Note<b>: Only possible to apply one filter at the time.
+
 <embed 
        type="text/html" 
        src="/viz/dk_cph_days_hospital_bar.html"
@@ -109,21 +109,21 @@ So what can we learn from this? Although the level of income is higher in Copenh
 <embed 
        type="text/html" 
        src="/viz/cph_income_time_map.html"
-       width="1000"
-       height="750"
+       width="900"
+       height="600"
        >
 
 <embed 
        type="text/html" 
        src="/viz/cph_hosp_times_time_map.html"
-       width="1000"
+       width="900"
        height="750"
        >
 
 <embed 
        type="text/html" 
        src="/viz/cph_hosp_days_time_map.html"
-       width="1000"
+       width="900"
        height="750"
        >
 
