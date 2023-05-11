@@ -106,11 +106,15 @@ So what can we learn from this? Although the level of income is higher in Copenh
 * map with correlation between income and health? and then income and health also in tool tip?
 * Possible to do a cluster analysis? Create different clusters with a certain income and health and then see if there are any obvious patterns in which municipalities these clusters live in?
 
+During the following, we're going to take a closer look at Copenhagen and the differences between the individual municipalities within. The maps contain data about the development of income and hospitalizations across the years, from 2005 until 2018. 
+
+The maps will start playing automatically, but you can press the play button to restart the years.
+
 <embed 
        type="text/html" 
        src="/viz/cph_income_time_map.html"
        width="900"
-       height="600"
+       height="750"
        >
 
 <embed 
@@ -127,7 +131,9 @@ So what can we learn from this? Although the level of income is higher in Copenh
        height="750"
        >
 
+After playing all of them, it is clear that there are staggering differences even between the municipalities. What's even more interesting is that here we can observe the exact opposite of what we saw in the previous section: the areas with the highest average salary generally have lower values for both number of days spent in hospital and times of hospitalization. 
 
+Moreover we can observe one more interesting piece of information, which is that while during the years the average days spent in hospital is decreasing, the times of hospitalization shows an increasing tendency. This is an interesting contrast, but can possibly be explained by the technological advancement and machines and staff becoming more and more efficient at examining people. 
 
 
 # Did you follow along? Take the quiz!
