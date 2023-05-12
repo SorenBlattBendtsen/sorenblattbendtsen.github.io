@@ -17,7 +17,7 @@ Although the Social Democratic party, who historically has been very strong in C
 This discussion gave us the motivation to look at and analyze the data to understand what has really been going on in Copenhagen in terms of wealth and health. How is the region of the Greater Copenhagen during compared to the rest of Denmark and what does these differences look like across the different municipalities of Greater Copenhagen? How has the development been over time and different demographic groups?
 
 # Dataset exploration
-To answer these questions, we have worked on a dataset gathered from Rockwool Fonden's tool, Wealth and Inequality [3]. A further exploration of the dataset and the required data preparation can be found here in our Explainer Jupyter Notebook, but in general the final data set included consisted of 16 columns and  39605 rows. The table below provides a quick reference to the essential features and qualities used for this analysis. 
+To answer these questions, we have worked on a dataset gathered from Rockwool Fonden's tool, Wealth and Inequality [3]. A further exploration of the dataset and the required data preparation can be found here in our Explainer Jupyter Notebook, but in general the final data set included consisted of 14 columns and  app. 12,000 rows. The table below provides a quick reference to the essential features and qualities used for this analysis. 
 
 | Column Name | Definition | Type | Scale |
 |----------|----------|----------|----------|
@@ -60,10 +60,19 @@ table tr:hover {
 
 
 # Greater Copenhagen vs Denmark
-Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. The story across the entire country is in general a positive one where income has been growing and time spent in the hospital is decreasing
+Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. The story across the entire country is in general a positive one where income has been growing and time spent in the hospital is decreasing.
 
 ### K-means clustering analysis
+We have performed a K-means clustering algorithm, which is an unsupervised machine learning model, applied to divide data into segments with similar behaviour. By doing so, we have found four clusters, which can be seen in the visualization below:
 
+<embed 
+       type="text/html" 
+       src="/viz/kmeans.html"
+       width="900"
+       height="450"
+       >
+
+The clusters are shown on a scatter plot that compares Income and Days in Hospital for the people in Greater Copenhagen and for Denmark as a whole. It has been interesting to see, that the clusters are separated almost entirely based on different age groups. 
 
 ### Interactivity
 The following sections will include interactive visualizations where you yourself can drill down into the graph for further investigation. You can do so by using the drop down menus as filter and by hovering over the graphs with the mouse for more information. However, it is important to mention that you can only apply one drop down filter at a time. So if you first make a filter for Gender and then afterwards make a filter for Age, then the Gender filter no longer is applied. We invite you to play around with the drop down menus as well as hovering over the bars for more information or highlighting specific time periods.
@@ -144,9 +153,9 @@ Moreover we can observe one more interesting piece of information, which is that
 
 So what did we learn from this? Generally speaking Denmark as a whole, as well as all of the Copenhagen municipalities, have become wealthier and healthier between 2005 and 2018. At least when just looking at disposable income and time spent in the hospital. However, this positive growth has been stronger in Copenhagen compared to the rest of the country. And when looking inside of Copenhagen, this growth has even been more uneven, creating a much larger gap between those living in the northern municipalities compared to especially those in the south-west.
 
-We have also seen another major difference between Denmark and Copenhagen. While there in Denmark as a whole does not seem to be strong a correlation between income and time spent in hospital, this is exactly the opposite within Copenhagen, where people living in the richest neighborhoods usually spent less time in the hospital than those living in low-income neighborhoods. 
+We have also seen another major difference between Denmark and Copenhagen. While there in Denmark as a whole does not seem to be a strong correlation between income and time spent in hospital, this is exactly the opposite within Copenhagen, where people living in the richest neighborhoods usually spend less time in the hospital than those living in low-income neighborhoods. 
 
-This supports the original idea we had of growing inequality in Copenhagen. When applying machine learning models, although we see that age is the strongest variable to describe the health and wealth status, we are confirmed in the inequality between neighborhoods and groups of people in Copenhagen. We are e.g. predicting Danish nationals to spend much less time in the hospital, while this number will increase for Immigrants and Descendants. We predict the same situation when looking at education level leading to an even bigger gap in health between those with a high level of education and those who does not.
+This supports the original idea we had of growing inequality in Copenhagen. When applying a k-means clustering model, we see that age is the strongest variable to describe the health and wealth status. However, when doing a regression analysis, we are confirmed of the inequality across neighborhoods and groups of people in Copenhagen. The model e.g. predicts Danish nationals to spend much less time in the hospital in the future, while this number will increase for Immigrants and Descendants. We predict the same situation when looking at education level leading to an even bigger gap in health between those with a high level of education and those who does not.
 
 This is a concerning development and we belive the differences have only been amplified with the previous years of pandemic and war on European territory. We invite politicians and other decision makers to dive down in the newest data to understand the current situation and take action towards a more equal Copenhagen.
 
