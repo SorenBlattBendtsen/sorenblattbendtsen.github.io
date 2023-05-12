@@ -62,6 +62,9 @@ table tr:hover {
 # Greater Copenhagen vs Denmark
 Before diving deep into what is happening in Copenhagen, we want to put the development of health and and income into perspective. To do so, let's have a comparison over time between the Greater Region of Copenhagen with it's 20 municipalities and Denmark as a whole. The story across the entire country is in general a positive one where income has been growing and time spent in the hospital is decreasing
 
+### K-means clustering analysis
+
+
 ### Interactivity
 The following sections will include interactive visualizations where you yourself can drill down into the graph for further investigation. You can do so by using the drop down menus as filter and by hovering over the graphs with the mouse for more information. However, it is important to mention that you can only apply one drop down filter at a time. So if you first make a filter for Gender and then afterwards make a filter for Age, then the Gender filter no longer is applied. We invite you to play around with the drop down menus as well as hovering over the bars for more information or highlighting specific time periods.
 
@@ -108,7 +111,8 @@ So what can we learn from this? Although the level of income is higher in Copenh
 
 During the following, we're going to take a closer look at Copenhagen and the differences between the individual municipalities within. The maps contain data about the development of income and hospitalizations across the years, from 2005 until 2018. 
 
-The maps will start playing automatically, but you can press the play button to restart the years.
+### Interactivity: 
+The maps work like a Gif. They will start playing automatically, but you can press the play button to restart and it will then run through all of the years showing the updated map. You can pause the gif at any given year and hover over a municipality with the mouse to see more information in the tool-tip.
 
 <embed 
        type="text/html" 
@@ -135,16 +139,19 @@ After playing all of them, it is clear that there are staggering differences eve
 
 Moreover we can observe one more interesting piece of information, which is that while during the years the average days spent in hospital is decreasing, the times of hospitalization shows an increasing tendency. This is an interesting contrast, but can possibly be explained by the technological advancement and machines and staff becoming more and more efficient at examining people. 
 
+### Regression analysis
 
-# Did you follow along? Take the quiz!
 
-<iframe
-  src="/viz/sample-quiz.html"
-  style="width:100%; height:300px;"
-></iframe>
+So what did we learn from this? Generally speaking Denmark as a whole, as well as all of the Copenhagen municipalities, have become wealthier and healthier between 2005 and 2018. At least when just looking at disposable income and time spent in the hospital. However, this positive growth has been stronger in Copenhagen compared to the rest of the country. And when looking inside of Copenhagen, this growth has even been more uneven, creating a much larger gap between those living in the northern municipalities compared to especially those in the south-west.
+
+We have also seen another major difference between Denmark and Copenhagen. While there in Denmark as a whole does not seem to be strong a correlation between income and time spent in hospital, this is exactly the opposite within Copenhagen, where people living in the richest neighborhoods usually spent less time in the hospital than those living in low-income neighborhoods. 
+
+This supports the original idea we had of growing inequality in Copenhagen. When applying machine learning models, although we see that age is the strongest variable to describe the health and wealth status, we are confirmed in the inequality between neighborhoods and groups of people in Copenhagen. We are e.g. predicting Danish nationals to spend much less time in the hospital, while this number will increase for Immigrants and Descendants. We predict the same situation when looking at education level leading to an even bigger gap in health between those with a high level of education and those who does not.
+
+This is a concerning development and we belive the differences have only been amplified with the previous years of pandemic and war on European territory. We invite politicians and other decision makers to dive down in the newest data to understand the current situation and take action towards a more equal Copenhagen.
 
 # Do you want to know more?
-Have a look [here at our Explainer Jupyter Notebook](https://github.com/vivivaradi/socialdata2023/blob/master/assignments/cph_vs_dk.ipynb){:target="_blank"}{:rel="noopener noreferrer"} with code and explinations of all the data analysis and visualizations.
+We hope you found this article insightful! If you want to know more, have a look [here at our Explainer Jupyter Notebook](https://github.com/vivivaradi/socialdata2023/blob/master/assignments/Explainer%20Notebook.ipynb){:target="_blank"}{:rel="noopener noreferrer"} with code and explinations of all the data analysis and visualizations.
 
 
 # References
@@ -154,19 +161,3 @@ Have a look [here at our Explainer Jupyter Notebook](https://github.com/vivivara
 [2] : [Arbejderbevægelsens Erhvervsråd, Krig vil ramme danskernes forbrug og realløn](https://www.ae.dk/analyse/2022-03-krig-vil-ramme-danskernes-forbrug-og-realloen){:target="_blank"}{:rel="noopener noreferrer"}
 
 [3] : [Rockwool Fonden, Velstand og Ulighed](https://www.velstandogulighed.dk/){:target="_blank"}{:rel="noopener noreferrer"}
-
-## Side by side images/visualizations (notes)
-
-<p align="center">
-  <embed 
-       type="text/html" 
-       src="/viz/dk_cph_days_hospital_line.html"
-       width="43%"
-       height="350">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <embed 
-       type="text/html" 
-       src="/viz/dk_cph_hospitalizations_line.html"
-       width="43%"
-       height="350">
-</p>
